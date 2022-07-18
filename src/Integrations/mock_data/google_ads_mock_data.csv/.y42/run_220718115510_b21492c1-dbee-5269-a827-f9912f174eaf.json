@@ -47,5 +47,13 @@
     }
   },
   "created_at": "2022-07-18T11:55:10.363260+00:00",
-  "_signature": "Pwb11m/z+uqfwToB95FaOYaFBt1I8tw9ZGBmBFBPKUIH0w7iGBMxjwE4VjcZQzM1MWn/BPqp2i9XtYiVoeRlDA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-18T11:55:21.380282+00:00",
+    "write_disposition": "TRUNCATE",
+    "external_id": "eb532dbb-6604-45f2-830c-54ac5843f3ce",
+    "storage_file": "gs://y42_betatour_392f4a55cf694ac181d886c97edc809d/userUploads/v2/45/file-upload/16428b21-4e93-4838-b4fd-183f6a0c352d",
+    "partial": false
+  },
+  "_signature": "rBT8DpVLv9fkvFsnySGxynM7etAK1qcxXy/grp/EOFmFnasBJRiXBFYxvu0ZoD+VeX2K47lEbgVYdVu9JybVDg=="
 }
