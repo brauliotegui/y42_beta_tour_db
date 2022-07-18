@@ -1,0 +1,51 @@
+{
+  "request_id": "220718115458_22bc5932-0b79-5b6f-9c13-f08c722d53f7",
+  "status": "pending",
+  "request": {
+    "target_credentials": "0e8440c7-23a4-4938-8164-98681f485eb4",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/file-upload/0.0.0/source.json#csv",
+      "content-type": "text/csv",
+      "uploadTarget": "https://storage.googleapis.com/upload/storage/v1/b/y42_betatour_392f4a55cf694ac181d886c97edc809d/o?uploadType=resumable&upload_id=ADPycdsPEgbvk9Sov2XJPti_X60jLs4VheSoK3j7AUee7xXAJNdi0j_DaqygMJuIFcZk81ZU1vKKKc5OfAvk_-A46MhLHA",
+      "originalName": "fb_ads_mock_data.csv",
+      "size": "1387061",
+      "uri": "gs://y42_betatour_392f4a55cf694ac181d886c97edc809d/userUploads/v2/45/file-upload/d396aacc-12fa-4f2d-9ca7-13d8724dc183",
+      "csv_options": {
+        "field_delimiter": ",",
+        "allow_quoted_new_lines": true,
+        "null_marker": "",
+        "ignore_unknown_values": false,
+        "encoding": "UTF-8",
+        "quote": "\"",
+        "skip_leading_rows": null
+      }
+    },
+    "created_at": "2022-07-18T11:54:58.786962+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/mock_data/fb_ads_mock_data.csv",
+        "id": "45:517c8457-4e76-4dbb-a32b-7c02924e6422",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_tour_db",
+        "commit_sha": "8bbfa1ecfa3dbe7a6d491a5e65b946d49eb5671e"
+      }
+    },
+    "context": {
+      "company_id": 45,
+      "company_slug": "petlab",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-18T11:54:58.786962+00:00",
+  "_signature": "8rEYbt5pGi/2BMTFgglR9aQx2h4gZXi+bC52pk3uPOZTFathIBfIigdF0Xg2saHPcjI5+inaJEF6bCazUPLkAg=="
+}
