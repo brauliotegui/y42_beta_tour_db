@@ -1,6 +1,6 @@
 {
   "request_id": "220718115458_22bc5932-0b79-5b6f-9c13-f08c722d53f7",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "0e8440c7-23a4-4938-8164-98681f485eb4",
     "source_settings": {
@@ -53,7 +53,66 @@
     "write_disposition": "TRUNCATE",
     "external_id": "8eca4a4d-b9e5-4713-a912-9cdb8ea9b6a6",
     "storage_file": "gs://y42_betatour_392f4a55cf694ac181d886c97edc809d/userUploads/v2/45/file-upload/d396aacc-12fa-4f2d-9ca7-13d8724dc183",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-18T11:55:54.438056+00:00",
+    "row_count": 13447,
+    "current_import_row_count": 13447,
+    "size_in_bytes": 1438652,
+    "columns": [
+      {
+        "field_name": "account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220718115458_22bc5932-0b79-5b6f-9c13-f08c722d53f7",
+    "external_url": "https://console.cloud.google.com/bigquery?p=v2-beta-tours&d=y42_betatour_392f4a55cf694ac181d886c97edc809d&t=220718115458_22bc5932-0b79-5b6f-9c13-f08c722d53f7&page=table"
   },
-  "_signature": "4xuOe7x+bT+oFb7V7E8Rio0ufoduETeDxUacdiLarexfydrb5Xf6aVHw6c44oeXqFAA4qWEySPcK6WQ/0DgtCQ=="
+  "finished_at": "2022-07-18T11:55:54.438190+00:00",
+  "_signature": "R0vMwqaUKaKhgk8ZocblL/3M2uuLLNWrXMg0EcdvVNw/GcN6STITDMI2e7bn4YarKlonvrXB2N73u1GUv37pDg=="
 }
