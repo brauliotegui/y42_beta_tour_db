@@ -1,0 +1,38 @@
+{
+  "request_id": "220720151136_57ef0b6b-e59e-5f1f-a580-9e30014e4a64",
+  "status": "pending",
+  "request": {
+    "target_credentials": "0e8440c7-23a4-4938-8164-98681f485eb4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "a9a0ef92-367e-4808-901c-fbcf000fa9cb"
+    },
+    "created_at": "2022-07-20T15:11:36.770483+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/demo/demo",
+        "id": "45:517c8457-4e76-4dbb-a32b-7c02924e6422",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_tour_db",
+        "commit_sha": "298d01b3488da65f3304c27d5383c12d1dedd5a4"
+      }
+    },
+    "context": {
+      "company_id": 45,
+      "company_slug": "petlab",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-20T15:11:36.770483+00:00",
+  "_signature": "GqpQcBIcz9nas/64Rea9/5L75E1gVOxGS9d5PHgf1nwWRg5ehcY6lf1gKWR0EmNI12Zl5/0fsdldlAZNYPr0Bw=="
+}
