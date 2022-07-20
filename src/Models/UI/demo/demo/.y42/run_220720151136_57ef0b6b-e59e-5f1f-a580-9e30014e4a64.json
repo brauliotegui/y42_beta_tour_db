@@ -1,6 +1,6 @@
 {
   "request_id": "220720151136_57ef0b6b-e59e-5f1f-a580-9e30014e4a64",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "0e8440c7-23a4-4938-8164-98681f485eb4",
     "source_settings": {
@@ -34,5 +34,68 @@
     }
   },
   "created_at": "2022-07-20T15:11:36.770483+00:00",
-  "_signature": "GqpQcBIcz9nas/64Rea9/5L75E1gVOxGS9d5PHgf1nwWRg5ehcY6lf1gKWR0EmNI12Zl5/0fsdldlAZNYPr0Bw=="
+  "finished_at": "2022-07-20T15:12:18.214881+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-20T15:12:18.214727+00:00",
+    "row_count": 13447,
+    "current_import_row_count": 13447,
+    "size_in_bytes": 1438540,
+    "external_id": "cc4eac9c-9c5b-4f55-8282-bfcc8c96d8af",
+    "columns": [
+      {
+        "field_name": "account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220720151136_57ef0b6b-e59e-5f1f-a580-9e30014e4a64",
+    "external_url": "https://console.cloud.google.com/bigquery?p=v2-beta-tours&d=y42_betatour_392f4a55cf694ac181d886c97edc809d&t=220720151136_57ef0b6b-e59e-5f1f-a580-9e30014e4a64&page=table"
+  },
+  "_signature": "drCuc7U/7u8BM27fZFMC7Ja3dNwZC6MjRKsOfbdy0IccAB2A6IY3VUdEdFH5/21CpgMmF0MnHkYSMKnFNMemCw=="
 }
