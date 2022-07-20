@@ -1,6 +1,6 @@
 {
   "request_id": "220720151357_e675a1b2-d5f9-5ab4-ac84-14b9517ac21f",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "0e8440c7-23a4-4938-8164-98681f485eb4",
     "source_settings": {
@@ -34,5 +34,8 @@
     }
   },
   "created_at": "2022-07-20T15:13:57.895392+00:00",
-  "_signature": "qFQBmoHKKoOtZe3Tps0ltjhXYn+stwYJj5f1/NjUvYYwiaMO3iv3M59KCdbMyMcFyKFmWcOEN0JYUuFDDxjmAA=="
+  "failed_at": "2022-07-20T15:14:07.493901+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"INFO\",\"message\":\">> GET http://trigger.backend/company/45/environment\",\"datetime\":\"2022-07-20T15:14:07.042061+00:00\",\"requestId\":\"8837484e-19c8-4ba6-a873-9ccf20cf4d01\",\"channel\":\"local\"}{\"severity\":\"INFO\",\"message\":\"<< 200 - 0.041s - {\\\"environment\\\":{\\\"database\\\":{\\\"dataset\\\":\\\"y42_betatour_392f4a55cf694ac181d886c97edc809d\\\",\\\"service_account\\\":{\\\"auth_provider_x509_cer...\",\"datetime\":\"2022-07-20T15:14:07.083154+00:00\",\"requestId\":\"8837484e-19c8-4ba6-a873-9ccf20cf4d01\",\"channel\":\"local\"}\n{\"severity\":\"ERROR\",\"message\":\"column doest exist in this node: @spend\",\"datetime\":\"2022-07-20T15:14:07.413878+00:00\",\"requestId\":\"8837484e-19c8-4ba6-a873-9ccf20cf4d01\",\"channel\":\"local\"}\n",
+  "_signature": "R27i0w42ldas7IdOSt41KZxExKyDifkXH9LaxSkqnu76bgGT1AGf5fMMZ07rn426dSm0sCRn5jkH2nPrB7ShCA=="
 }
