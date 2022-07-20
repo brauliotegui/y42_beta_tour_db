@@ -1,0 +1,38 @@
+{
+  "request_id": "220720151703_45d04a6d-e20e-5bb7-924d-acb8aa7c1646",
+  "status": "pending",
+  "request": {
+    "target_credentials": "0e8440c7-23a4-4938-8164-98681f485eb4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "dc02fb57-6a4d-4c7d-8130-f8cbfba3c86c"
+    },
+    "created_at": "2022-07-20T15:17:03.348722+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/facebook_ads/facebook_ads",
+        "id": "45:517c8457-4e76-4dbb-a32b-7c02924e6422",
+        "branch": "braulio"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_tour_db",
+        "commit_sha": "7990a00a2160361066371f727ff5927780f32e58"
+      }
+    },
+    "context": {
+      "company_id": 45,
+      "company_slug": "petlab",
+      "triggered_by_type": "user",
+      "triggered_by_id": "48",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-20T15:17:03.348722+00:00",
+  "_signature": "fZPmju7x597CmkwBdS1TGg+bdHwyeiRM0d92nBOr0RfjpwcKcPSBHmMZmYaFv8uy9u0FDV2vuW0qk2lEI/vmBw=="
+}
