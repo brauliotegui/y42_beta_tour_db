@@ -1,0 +1,38 @@
+{
+  "request_id": "220720151726_8c4d2cb1-ff1b-5fd7-b728-8dd106468dc8",
+  "status": "pending",
+  "request": {
+    "target_credentials": "0e8440c7-23a4-4938-8164-98681f485eb4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "0bc27cc5-27a5-449c-b7ec-2d3ff5c1534a"
+    },
+    "created_at": "2022-07-20T15:17:26.859183+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/raul_model/raul_model",
+        "id": "45:517c8457-4e76-4dbb-a32b-7c02924e6422",
+        "branch": "raul_branch"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "brauliotegui",
+        "repo": "y42_beta_tour_db",
+        "commit_sha": "0ff148ba693644d3a20debab7d5bd02eeb4ea2cd"
+      }
+    },
+    "context": {
+      "company_id": 45,
+      "company_slug": "petlab",
+      "triggered_by_type": "user",
+      "triggered_by_id": "31",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-20T15:17:26.859183+00:00",
+  "_signature": "IUCzdEQ4DplqhHC408uRJk9z8gCWyQmBvJS/M6Pt12OIydqf1HHCqHFnZK6XZ8XbGD5kdn4lK4k2SK41EXCiCg=="
+}
